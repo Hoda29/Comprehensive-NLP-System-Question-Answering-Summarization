@@ -1,0 +1,42 @@
+# Comprehensive NLP System: Question Answering & Summarization
+# Requirements file for all dependencies
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Hugging Face Ecosystem
+transformers>=4.30.0
+datasets>=2.10.0
+tokenizers>=0.13.0
+huggingface-hub>=0.15.0
+
+# Evaluation Metrics
+rouge-score>=0.1.2
+scikit-learn>=1.2.0
+numpy>=1.23.0
+scipy>=1.10.0
+
+# Utilities
+tqdm>=4.65.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: Data Processing
+nltk>=3.8.0
+
+# Optional: Visualization and Logging
+tensorboard>=2.12.0
+wandb>=0.14.0
+
+# Development Tools
+pytest>=7.3.0
+black>=23.3.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# GPU Acceleration (optional, install with:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118)
+# CUDA 11.8 specific libraries are downloaded separately
